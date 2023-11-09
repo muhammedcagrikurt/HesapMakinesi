@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         binding.buttonVirgul.setOnClickListener(view -> {
-            sayiler+=binding.buttonVirgul.getText();
+            sayiler+=".";
             binding.editTextSonuc.setText(sayiler);
         });
 
